@@ -155,8 +155,8 @@ local theme = lush(function()
     SpellCap     { bg = dark_blue }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal   { bg = casal }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare    { bg = ripe_plum }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
-    StatusLine   { fg = total_black, bg = alto }, -- status line of current window
-    StatusLineNC { fg = total_white, bg = gravel }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    StatusLine   { fg = total_white, bg = grey_one }, -- status line of current window
+    StatusLineNC { fg = silver, bg = grey_one }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine      { fg = total_black, bg = cadet_blue }, -- tab pages line, not active tab page label
     TabLineFill  { fg = regent_grey }, -- tab pages line, where there are no labels
     TabLineSel   { fg = total_black, bg = grey_two }, -- tab pages line, active tab page label
