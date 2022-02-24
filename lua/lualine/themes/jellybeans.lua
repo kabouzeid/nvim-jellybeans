@@ -54,7 +54,7 @@ local calypso = hsl("#2B5B77")
 local jellybeans = {}
 
 jellybeans.normal = {
-  a = { bg = ship_cove.hex, fg = total_black },
+  a = { bg = ship_cove.hex, fg = total_black.hex },
   b = { bg = gravel.hex, fg = ship_cove.lighten(40).hex },
   c = { bg = grey_one.hex, fg = silver.hex },
 }
