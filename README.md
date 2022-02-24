@@ -1,5 +1,7 @@
 # nvim-jellybeans
 
+![screenshot](./screenshot.png)
+
 ## Install
 **Note**: This `colorscheme` requires at least Neovim 0.5
 
